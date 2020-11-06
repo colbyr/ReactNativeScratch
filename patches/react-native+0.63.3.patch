@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native/Libraries/Blob/BlobRegistry.js b/node_modules/react-native/Libraries/Blob/BlobRegistry.js
+index ce1eaed..571134e 100644
+--- a/node_modules/react-native/Libraries/Blob/BlobRegistry.js
++++ b/node_modules/react-native/Libraries/Blob/BlobRegistry.js
+@@ -32,6 +32,7 @@ const has = (id: string): number | boolean => {
+ };
+ 
+ module.exports = {
++  registry,
+   register,
+   unregister,
+   has,
